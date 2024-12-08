@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web4U - Aprende sobre SVG con ejemplos interactivos.">
+    <title>SVG - Gráficos Escalables | Web4U</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Web4U</h1>
+            <p>Aprende sobre SVG con ejemplos interactivos.</p>
+        </div>
+    </header>
+
+    <nav id="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../html/html.html">HTML</a></li>
+                <li><a href="../css/css.html">CSS</a></li>
+                <li><a href="svg.html">SVG</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="content-section" id="svg">
+            <h2>¿Qué es SVG?</h2>
+            <p>SVG (Scalable Vector Graphics) es un formato de imagen basado en XML que permite crear gráficos vectoriales que se pueden escalar sin perder calidad.</p>
+            <div class="example-box">
+                <h3>Ejemplo: Crear un círculo</h3>
+                <p>&lt;svg&gt;...&lt;/svg&gt; es la estructura básica para un gráfico SVG.</p>
+                <svg width="200" height="200" style="border: 1px solid black;">
+                    <circle cx="100" cy="100" r="50" fill="lightblue" stroke="blue" stroke-width="5"/>
+                </svg>
+            </div>
+
+            <section class="content-section">
+                <h3>&lt;rect&gt;: Rectángulo con bordes redondeados</h3>
+                <p>&lt;rect&gt; es una etiqueta para dibujar rectángulos. Podemos modificar sus propiedades como el color, los bordes y el radio de los bordes.</p>
+                <div class="example-box">
+                    <p>&lt;rect width="150" height="100" rx="15" ry="15" fill="lightgreen" stroke="darkgreen" stroke-width="5" /&gt;</p>
+                    <svg width="200" height="200">
+                        <rect width="150" height="100" rx="15" ry="15" fill="lightgreen" stroke="darkgreen" stroke-width="5" />
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>&lt;line&gt;: Línea</h3>
+                <p>La etiqueta &lt;line&gt; permite dibujar líneas rectas entre dos puntos.</p>
+                <div class="example-box">
+                    <p>&lt;line x1="10" y1="10" x2="200" y2="200" stroke="red" stroke-width="3" /&gt;</p>
+                    <svg width="220" height="220">
+                        <line x1="10" y1="10" x2="200" y2="200" stroke="red" stroke-width="3" />
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>&lt;polygon&gt;: Polígono</h3>
+                <p>La etiqueta &lt;polygon&gt; permite dibujar figuras con múltiples vértices.</p>
+                <div class="example-box">
+                    <p>&lt;polygon points="100,10 150,50 120,150 80,150 50,50" fill="orange" stroke="darkorange" stroke-width="5" /&gt;</p>
+                    <svg width="200" height="200">
+                        <polygon points="100,10 150,50 120,150 80,150 50,50" fill="orange" stroke="darkorange" stroke-width="5" />
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>&lt;text&gt;: Texto dentro de SVG</h3>
+                <p>&lt;text&gt; permite insertar texto dentro de los gráficos SVG, lo que te da la posibilidad de crear imágenes y texto juntos.</p>
+                <div class="example-box">
+                    <p>&lt;text x="50" y="50" font-family="Arial" font-size="20" fill="black"&gt;Texto interactivo&lt;/text&gt;</p>
+                    <svg width="300" height="200" style="border: 1px solid #ccc;">
+                        <text x="50" y="50" font-family="Arial" font-size="30" fill="black" id="svgText" style="cursor: pointer;">
+                            Texto interactivo
+                        </text>
+                    </svg>
+                    <p id="clickMessage" style="margin-top: 10px; font-weight: bold;"></p>
+                </div>
+            </section>
+            
+
+
+            <a href="../index.html" class="button">Volver al inicio</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Web4U. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/svg.js"></script>
+</body>
+</html>

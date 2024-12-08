@@ -1,0 +1,37 @@
+{
+    "es": {
+      "title": "Web4U",
+      "description": "Aprende sobre HTML, CSS y SVG con ejemplos interactivos.",
+      "html": "HTML",
+      "css": "CSS",
+      "svg": "SVG",
+      "language": "Idioma:",
+      "learn_more": "Saber más",
+      "download": "Descargar Contenido",
+      "footer": "&copy; 2024 Web4U. Todos los derechos reservados.",
+      "html_title": "HTML - Estructura Básica",
+      "html_description": "HTML es el lenguaje de marcado que se utiliza para estructurar el contenido en la web.",
+      "css_title": "CSS - Estilo y Diseño",
+      "css_description": "CSS se usa para darle estilo a los elementos HTML, desde colores hasta animaciones.",
+      "svg_title": "SVG - Gráficos Escalables",
+      "svg_description": "SVG permite crear gráficos vectoriales que se pueden escalar sin perder calidad."
+    },
+    "en": {
+      "title": "Web4U",
+      "description": "Learn about HTML, CSS, and SVG with interactive examples.",
+      "html": "HTML",
+      "css": "CSS",
+      "svg": "SVG",
+      "language": "Language:",
+      "learn_more": "Learn more",
+      "download": "Download Content",
+      "footer": "&copy; 2024 Web4U. All rights reserved.",
+      "html_title": "HTML - Basic Structure",
+      "html_description": "HTML is the markup language used to structure content on the web.",
+      "css_title": "CSS - Style and Design",
+      "css_description": "CSS is used to style HTML elements, from colors to animations.",
+      "svg_title": "SVG - Scalable Graphics",
+      "svg_description": "SVG allows you to create vector graphics that can be scaled without losing quality."
+    }
+  }
+  

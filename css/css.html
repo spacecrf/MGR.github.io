@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web4U - Aprende sobre CSS con ejemplos interactivos.">
+    <title>CSS - Estilo y Diseño | Web4U</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Web4U</h1>
+            <p>Aprende sobre CSS con ejemplos interactivos.</p>
+        </div>
+    </header>
+
+    <nav id="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../html/html.html">HTML</a></li>
+                <li><a href="index.html">CSS</a></li>
+                <li><a href="../svg/svg.html">SVG</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="content-section" id="css">
+            <h2>¿Qué es CSS?</h2>
+            <p>CSS (Cascading Style Sheets) es el lenguaje que usamos para darle estilo a las páginas web. Nos permite modificar la apariencia visual del contenido, como colores, fuentes, márgenes y disposición de los elementos.</p>
+            <div class="example-box">
+                <p>&lt;h1&gt;Título de nivel 1&lt;/h1&gt;</p>
+                <h1>Ejemplo: Título con estilo CSS</h1>
+                <style>
+                    h1 {
+                        color: blue;
+                        font-size: 36px;
+                    }
+                </style>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h3>&lt;div&gt;: Contenedor de elementos</h3>
+            <p>La etiqueta &lt;div&gt; se usa para agrupar otros elementos HTML, aplicando estilos a todo su contenido.</p>
+            <div class="example-box">
+                <p>&lt;div&gt;Contenido dentro de un contenedor&lt;/div&gt;</p>
+                <div style="background-color: lightgrey; padding: 10px;">
+                    Contenido dentro de un contenedor
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h3>&lt;span&gt;: Estilo en línea</h3>
+            <p>La etiqueta &lt;span&gt; se usa para aplicar estilos en línea a fragmentos de texto.</p>
+            <div class="example-box">
+                <p>&lt;span&gt;Texto con estilo inline&lt;/span&gt;</p>
+                <span style="color: red; font-weight: bold;">Texto con estilo inline</span>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h3>&lt;button&gt;: Botón estilizado</h3>
+            <p>La etiqueta &lt;button&gt; crea un botón que puede ser estilizado con CSS para mejorar su apariencia.</p>
+            <div class="example-box">
+                <p>&lt;button&gt;Haz clic aquí&lt;/button&gt;</p>
+                <button style="background-color: green; color: white; padding: 10px 20px; border: none;">Haz clic aquí</button>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h3>&lt;img&gt;: Estilo de imágenes</h3>
+            <p>La etiqueta &lt;img&gt; es utilizada para insertar imágenes, y podemos estilizarla con CSS, por ejemplo, aplicando bordes o redondeando sus esquinas.</p>
+            <div class="example-box">
+                <p>&lt;img src="imagen.jpg"&gt;</p>
+                <img src="../imagenes/css-code.png" alt="Imagen de ejemplo" style="border: 3px solid black; border-radius: 8px; width: 200px;">
+            </div>
+        </section>
+
+        
+        <section class="content-section">
+            <h3>&lt;p&gt;: Párrafo con márgenes y relleno (padding)</h3>
+            <p>La etiqueta &lt;p&gt; define párrafos en HTML. Con CSS, podemos ajustar el espaciado externo usando márgenes (margins) y el espacio interno usando relleno (padding).</p>
+            <div class="example-box">
+                <p>&lt;p style="margin: 20px; padding: 15px; background-color: lightcoral;"&gt;Este es un párrafo con margen y padding aplicados.&lt;/p&gt;</p>
+                <p style="margin: 20px; padding: 15px; background-color: lightcoral; font-size: 18px; color: white;">
+                    Este es un párrafo con margen y padding aplicados. El margen separa el párrafo de otros elementos, y el relleno ajusta el espacio dentro del párrafo.
+                </p>
+            </div>
+        </section>
+
+        <a href="../index.html" class="button">Volver al inicio</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Web4U. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../js/nav.js"></script>
+</body>
+</html>

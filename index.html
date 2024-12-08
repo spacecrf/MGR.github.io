@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web4U - Aprende sobre HTML, CSS y SVG con ejemplos interactivos.">
+    <title>Web4U - Aprende HTML, CSS y SVG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 data-translate="title">Web4U</h1>
+            <p data-translate="description">Aprende sobre HTML, CSS y SVG con ejemplos interactivos.</p>
+        </div>
+    </header>
+
+    <nav id="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="html/index.html" data-translate="html">HTML</a></li>
+                <li><a href="css/css.html" data-translate="css">CSS</a></li>
+                <li><a href="svg/svg.html" data-translate="svg">SVG</a></li>
+            </ul>
+            <div class="language-selector">
+                <label for="language-selector" data-translate="language">Idioma:</label>
+                <select id="language-selector">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="content-section" id="html">
+            <h2 data-translate="html_title">HTML - Estructura Básica</h2>
+            <p data-translate="html_description">HTML es el lenguaje de marcado que se utiliza para estructurar el contenido en la web.</p>
+            <div class="html-example">
+                <img src="../imagenes/html-code.png" alt="Código HTML" class="html-img">
+                <a href="html/index.html" class="button" data-translate="learn_more">
+                    <span class="arrow">→</span>
+                    <span class="text">Saber más</span>
+                </a>
+                <a href="../pdfsHTML - Estructura Básica _ Web4U.pdf" download class="button download-btn">
+                    <span class="arrow">↓</span>
+                    <span class="text">Descargar Contenido</span>
+                </a>
+            </div>
+        </section>
+
+    <section class="content-section" id="css">
+        <h2 data-translate="css_title">CSS - Estilo y Diseño</h2>
+        <p data-translate="css_description">CSS se usa para darle estilo a los elementos HTML, desde colores hasta animaciones.</p>
+        <div class="css-example">
+            <img src="../imagenes/css-code.png" alt="Código CSS" class="css-img">
+            <a href="css/css.html" class="button" data-translate="learn_more">
+                <span class="arrow">→</span>
+                <span class="text">Saber más</span>
+            </a>
+            <a href="../pdfs/CSS - Estilo y Diseño _ Web4U.pdf" download class="button download-btn">
+                <span class="arrow">↓</span>
+                <span class="text">Descargar Contenido</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="content-section" id="svg">
+        <h2 data-translate="svg_title">SVG - Gráficos Escalables</h2>
+        <p data-translate="svg_description">SVG permite crear gráficos vectoriales que se pueden escalar sin perder calidad.</p>
+        <div class="svg-example">
+            <img src="../imagenes/svg-code.png" alt="Código SVG" class="svg-img">
+            <a href="svg/svg.html" class="button" data-translate="learn_more">
+                <span class="arrow">→</span>
+                <span class="text">Saber más</span>
+            </a>
+            <a href="../pdfs/SVG - Gráficos Escalables _ Web4U.pdf" download class="button download-btn">
+                <span class="arrow">↓</span>
+                <span class="text">Descargar Contenido</span>
+            </a>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p data-translate="footer">&copy; 2024 Web4U. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <script src="js/lenguage.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+</html>
